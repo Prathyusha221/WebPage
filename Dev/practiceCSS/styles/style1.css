@@ -1,9 +1,39 @@
+/*to import fonts from google fonts to the page*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Raleway", serif;
+    text-align: center;
+    color: white;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230415/pngtree-website-technology-line-dark-background-image_2344719.jpg");
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-size: cover; /* Scales the image to cover the whole screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed;
+  }
+
+  body > ul{
+    display: inline-block;
+  }
+
+body > ol{
+    display: inline-block;
+}
+  
 h1{
-    color: green;
+    color: yellow;
+}
+a{
+    color: lightblue;
 }
 
 h1 a{
     color: red;
+}
+
+ul li a{
+    color: pink;
+    text-decoration: none; /*to remove underline for a link*/
 }
 
 h2 a:hover{
@@ -23,9 +53,17 @@ h2 a:hover{
     box-shadow: -5px 5px orange;
 }
 
+/*Type of shadow like color at background usually we want it in grey color*/
+.chessboard:hover{
+    box-shadow: 0px 3px 36px 2px green;
+}
+
 .chessboard1{
     border-radius: 30px;
 }
 .mate-in-one3{
-    box-shadow: 10px 10px lightgreen;
+    box-shadow: 10px 10px lightblue;
+}
+.mate-in-one3:hover{
+    box-shadow: 10px 10px red;
 }
