@@ -1,0 +1,60 @@
+h1{
+    font-size: 80px;
+}
+
+ul {
+    list-style-type: none;
+    /*Types here are how the bullet symbols be: circles, 1. or 01., roman numbers, some other lang*/
+    /*list-style-type: none; - Removes the bullets. A navigation bar does not need list markers*/
+    /*Set margin: 0; and padding: 0; to remove browser default settings*/
+    margin: 0;
+    padding: 0;
+    background-color: rgb(203, 203, 67);
+    border: 1px solid #555;
+    
+    position: sticky; /* Make it stick, even on scroll */
+    width: 100%; /*for fixed horizontal bar*/
+    top: 0;
+    overflow: hidden; /*added for horizontal bar*/
+    
+    /*for fixed top:- top:0;  for fixed bottom:- bottom:0;*/
+
+    /* For creating sidebar
+    width: 25%; /*reducing from full to 25% for sidebar
+    height: 100%; /* Full height
+  overflow: auto; /*Enable scrolling if the sidenav has too much content*/
+  }
+
+  /*added only for horizontal bar*/
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    
+    /*remove bottom border for horizontal bar*/
+    /*border-bottom: 1px solid #555;*/
+}
+li:last-child{
+    border-bottom: none;
+}
+
+li a:hover{
+    background-color: #555;
+    color: #ffffff;
+}
+
+/*Add an "active" class to the current link to let the user know which page he/she is on*/
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+button:hover{
+    background-color: #41cffa;
+}
