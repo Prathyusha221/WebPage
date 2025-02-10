@@ -2,19 +2,22 @@
 
 body{
     font-family: "Raleway", sans-serif;
-    padding-left: 40px;
-    max-width: 500px;
-    margin: auto;
-    padding-top: 20px;
-    line-height: 2.3em;
     font-weight: 600;
+    
+    line-height: 2.5em;
+    
     background-image: url("https://graphicdesignjunction.com/wp-content/uploads/2012/08/minimal-background-pattern-wordpress-10.jpg");
     background-attachment: fixed;
 }
 
 .our-content{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    line-height: 2.5em;
     max-width: 500px;
     margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .to_italic{
@@ -25,6 +28,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-left: 0px !important;
     overflow: hidden;
     background-color: #333;
   }
