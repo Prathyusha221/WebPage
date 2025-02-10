@@ -1,0 +1,32 @@
+.container{
+    border: 5px solid #ffcc5c;
+
+    /*activating or importing flexbox*/
+    display: flex;
+    flex-direction: row; /*default is row*/
+    justify-content: space-around; /*flex-start is default*/
+    /*To make it add to another row instead being in same row even if space runs out*/
+    flex-wrap: wrap;
+}
+
+.container div{
+    margin: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.item1{
+    background-color: brown;
+    order: 2; /*giving constant orders*/
+}
+
+.item2{
+    background-color: purple;
+    order: 1;
+}
+
+.item3{
+    background-color: black;
+    order: 3;
+}
