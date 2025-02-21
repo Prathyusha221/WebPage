@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Challenge 3: Rock, Paper, Scissors</h2>
+        <div class="flex-box" id="flex-box">
+            <img id="rock" onclick="rpsGame(this)" width="150px" height="150px" src="https://atlas-content-cdn.pixelsquid.com/stock-images/rock-stone-AvXzl49-600.jpg" alt="Rock">
+            
+            <!--rpsGame(this) here this passes whole element-->
+            <img id="paper" onclick="rpsGame(this)" width="150px" height="150px" src="https://cdn.pixabay.com/photo/2016/10/23/15/47/paper-1763262_640.png" alt="Paper">
+            <img id="scissor" onclick="rpsGame(this)" width="150px" height="150px" src="https://img.freepik.com/free-vector/cute-scissors-kawaii_24877-82375.jpg" alt="Scissors">
+        </div>
+        <div>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
