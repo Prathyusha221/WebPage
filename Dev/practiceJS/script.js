@@ -6,8 +6,46 @@ document.getElementById('someText').innerHTML='Hello Hi There!!!';
 
 //objects
 //dictionaries in js
+let student={
+    first: "N",
+    last: "Prathyu",
+    age: 22,
+    height: 150,
+    studentInfo: function(){
+        return this.first+this.last;
+    }
+};
 
+console.log(student.last);
+student.first = "Jumbo";
+console.log(student.first, student.last);
+student.age++;
+console.log(student.age);
+console.log(student.studentInfo());
 
+if(~(student.age>35)){
+    console.log("my ppl");
+}
+
+//switch statements
+//differentiate b/w weekday and weekend
+//day 0-> sun
+//day 6 -> sat
+let day=5;
+switch(day){
+    case 0:
+        text = 'weekend';
+        break;
+    case 5:
+        text='weekend';
+        break;
+    case 6:
+        text='weekend';
+        break;
+    default:
+        text='weekday';
+}
+console.log("Day "+day+" is a "+text);
 
 //Array
 // let arr = [1,2,3];
