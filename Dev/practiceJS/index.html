@@ -11,6 +11,40 @@
         <label for="age">Age</label>
         <p id="age_val"></p>
     </div> -->
+
+    <script>
+        let students =[
+            {
+                "name": "Qazi",
+                "age": 25,
+                "height": 165
+            },
+            {
+                "name": "Rafeh",
+                "age": 28,
+                "height": 175
+            }]
+        
+        console.log(students);
+
+        let students1 =`[
+            {
+                "name": "Qazi",
+                "age": 25,
+                "height": 165
+            },
+            {
+                "name": "Rafeh",
+                "age": 28,
+                "height": 175
+            }]`
+        
+        console.log(students1);
+        console.log(JSON.parse(students1));
+        console.log(JSON.parse(students1)[0].name);
+        
+
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
