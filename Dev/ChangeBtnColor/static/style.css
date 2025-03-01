@@ -8,6 +8,52 @@
     text-align: center;
 }
 
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    border-top: 1px solid black;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url('https://t4.ftcdn.net/jpg/03/62/05/31/360_F_362053188_oQ0WRHCFkIY4QlXS1S5d1i9bpYup67ll.jpg') center;
+    color: white;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+#buttons-div{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.flex-blackjack-row-3{
+    border-top: 1px solid black;
+    padding: 10px;
+}
+/* 
+.flex-blackjack-row-2{
+    background-color: rgb(7, 75, 7);
+} */
+
+.flex-blackjack-row-3 table, .flex-blackjack-row-3 th, .flex-blackjack-row-3 td{
+    /* border-collapse: collapse; */
+    border: 1px solid black;
+    margin: 0px auto;
+}
+
 .flex-box-container-4{
     display: flex;
     border: 1px solid black;
